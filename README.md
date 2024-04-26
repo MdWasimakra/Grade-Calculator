@@ -19,7 +19,6 @@
         double averageScore = totalScore / numSubjects;
         System.out.println("Average grade: " + averageScore);
         
-        // Determine grade based on average score
         char grade;
         if (averageScore >= 90) {
             grade = 'A';
